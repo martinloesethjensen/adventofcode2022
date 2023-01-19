@@ -34,8 +34,6 @@ fn main() {
     println!("{:?}", priority_lower);
     println!("{:?}", priority_upper);
 
-
-
     let mut count = 0u32;
 
     for line in contents.split("\n").into_iter() {
